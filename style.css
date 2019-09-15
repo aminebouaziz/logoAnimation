@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+#logo,
+#logo2 {
+  position: absolute;
+  top: 20%;
+  left: 25%;
+  /* animation: fillA 3s ease forwards 3.5s; */
+}
+
+hello {
+}
+
+#logo path:nth-child(1) {
+  stroke-dasharray: 818px;
+  stroke-dashoffset: 818px;
+
+  animation: line-anim 2s ease forwards 0.3s;
+}
+#logo path:nth-child(2) {
+  stroke-dasharray: 781px;
+  stroke-dashoffset: 781px;
+  animation: line-anim 2s ease forwards 0.6s;
+}
+#logo path:nth-child(3) {
+  stroke-dasharray: 872px;
+  stroke-dashoffset: 872px;
+  animation: line-anim 2s ease forwards 0.9s;
+}
+#logo path:nth-child(4) {
+  stroke-dasharray: 872px;
+  stroke-dashoffset: 872px;
+  animation: line-anim 2s ease forwards 1.2s;
+}
+#logo path:nth-child(5) {
+  stroke-dasharray: 781px;
+  stroke-dashoffset: 781px;
+  animation: line-anim 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(6) {
+  stroke-dasharray: 456px;
+  stroke-dashoffset: 456px;
+  animation: line-anim 2s ease forwards 1.8s;
+}
+#logo path:nth-child(7) {
+  stroke-dasharray: 1377px;
+  stroke-dashoffset: 1377px;
+  animation: line-anim 2s ease forwards 2.1s;
+}
+#logo path:nth-child(8) {
+  stroke-dasharray: 392px;
+  stroke-dashoffset: 392px;
+  animation: line-anim 2s ease forwards 2.4s;
+}
+#logo path:nth-child(9) {
+  stroke-dasharray: 272px;
+  stroke-dashoffset: 272px;
+  animation: line-anim 2s ease forwards 2.7s;
+}
+#logo path:nth-child(10) {
+  stroke-dasharray: 349px;
+  stroke-dashoffset: 349px;
+  animation: line-anim 2s ease forwards 3s;
+}
+#logo path:nth-child(11) {
+  stroke-dasharray: 407px;
+  stroke-dashoffset: 407px;
+  animation: line-anim 2s ease forwards 3.3s;
+}
+#logo path:nth-child(12) {
+  stroke-dasharray: 358px;
+  stroke-dashoffset: 358px;
+  animation: line-anim 2s ease forwards 3.6s;
+}
+#logo path:nth-child(13) {
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
+  animation: line-anim 2s ease forwards 3.9s;
+}
+#logo path:nth-child(14) {
+  stroke-dasharray: 330px;
+  stroke-dashoffset: 330px;
+  animation: line-anim 2s ease forwards 4.2s;
+}
+
+#logo2 path:nth-child(1) {
+  stroke-dasharray: 818px;
+  stroke-dashoffset: 818px;
+
+  animation: fillA 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(2) {
+  stroke-dasharray: 781px;
+  stroke-dashoffset: 781px;
+  animation: fillA 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(3) {
+  stroke-dasharray: 872px;
+  stroke-dashoffset: 872px;
+  animation: fillA 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(4) {
+  stroke-dasharray: 872px;
+  stroke-dashoffset: 872px;
+  animation: fillA 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(5) {
+  stroke-dasharray: 781px;
+  stroke-dashoffset: 781px;
+  animation: fillA 3s ease forwards 3.5s;
+}
+
+#logo2 path:nth-child(6) {
+  stroke-dasharray: 456px;
+  stroke-dashoffset: 456px;
+  animation: fillA 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(7) {
+  stroke-dasharray: 1377px;
+  stroke-dashoffset: 1377px;
+  animation: fillC 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(8) {
+  stroke-dasharray: 392px;
+  stroke-dashoffset: 392px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+
+#logo2 path:nth-child(9) {
+  stroke-dasharray: 272px;
+  stroke-dashoffset: 272px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(10) {
+  stroke-dasharray: 349px;
+  stroke-dashoffset: 349px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(11) {
+  stroke-dasharray: 407px;
+  stroke-dashoffset: 407px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(12) {
+  stroke-dasharray: 358px;
+  stroke-dashoffset: 358px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(13) {
+  stroke-dasharray: 466px;
+  stroke-dashoffset: 466px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+#logo2 path:nth-child(14) {
+  stroke-dasharray: 330px;
+  stroke-dashoffset: 330px;
+  animation: fillB 3s ease forwards 3.5s;
+}
+
+@keyframes line-anim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fillA {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fb5046;
+  }
+}
+
+@keyframes fillB {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #3f626d;
+  }
+}
+@keyframes fillC {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fccf55;
+  }
+}
